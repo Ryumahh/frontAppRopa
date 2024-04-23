@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  color: rgb(202, 200, 200);
+}
+
+body{
+  background-color: #181717;
+}
+
+#root {
+    
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0.8rem;
+  }
+img{
+  border-radius:20px;
+}
+
+p{
+  text-align: justify;
+}
+
+img,button,input,a,iframe,br{
+  user-select: none;
+}
+
+::selection {
+  background-color: #8d0000;
+  color: white;
+}
+
+.TitPelis{
+  color: #d4d4d4;
+
+}
+
+.sliderIn{
+  margin-left: 40%;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8d0000;
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6e0101;
+}
